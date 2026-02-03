@@ -219,6 +219,9 @@ sudo apt install rofi
 9. En este punto, reiniciamos el equipo y seleccionamos bspwm (Probamos que los shortcuts estén funcionando correctamente).
 
 10. Configuramos un poco la terminal e instalamos las Hack Nerd Fonts, además del Firefox (hay que descargarse la última versión, también instalaremos firejail con 'apt install firejail' con el objetivo de lanzar firefox bajo este contexto enjaulado con sxhkd). [Las fuentes de Hack Nerd Fonts deben ir descomprimidas en /usr/local/share/fonts/, una vez hecho hay que ejecutar el comando 'fc-cache -v']
+Las fuentes se ponen directamente en el /usr/local/share/fonts
+# En mi máquina están en /usr/share/fonts, se borra el .zip
+
 
 11. Instalamos el addon 'FoxyProxy' para Firefox.
 
